@@ -4,4 +4,4 @@ select
     first_name,
     last_name
 
-from {{ source('raw_data', 'customers') }}
+from {{ source('google_cloud_postgresql_raw_data', 'customers') }}

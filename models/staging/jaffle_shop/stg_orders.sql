@@ -6,4 +6,4 @@ select
     order_date,
     status
 
-from {{ source('raw_data', 'orders') }}
+from {{ source('google_cloud_postgresql_raw_data', 'orders') }}
