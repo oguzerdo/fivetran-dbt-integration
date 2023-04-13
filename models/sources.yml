@@ -2,6 +2,7 @@ version: 2
 
 sources:
   - name: google_cloud_postgresql_raw_data
+    database: google_cloud_postgresql_raw_data
     tables:
       - name: customers
       - name: orders
